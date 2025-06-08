@@ -14,7 +14,9 @@ const Meat = () => {
     }
     return (
         <>
-            <div style={Themes[themesObject[currentThemeIndex]]}>arka plan</div>
+            <div style={Themes[themesObject[currentThemeIndex]]}>
+                background
+            </div>
             <div>
                 <button onClick={handleChange}>
                     {Themes[themesObject[currentThemeIndex]].textContent}
